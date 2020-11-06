@@ -27,7 +27,7 @@ class PackerNgFlutterPlugin: FlutterPlugin, MethodCallHandler {
 
   override fun onMethodCall(@NonNull call: MethodCall, @NonNull result: Result) {
     if (call.method == "getChannel") {
-      val packerChannel = PackerNg.getChannel(context) ?: "unknown"
+      val packerChannel = PackerNg.getChannel(context) ?: ""
       result.success(packerChannel)
     } else {
       result.notImplemented()
