@@ -1,8 +1,8 @@
 name: packer_ng_flutter
 description: A Packer-ng Flutter plugin.
-version: 0.0.1
-author:
-homepage:
+version: 0.0.2
+author: Junbin Deng
+homepage: https://github.com/JunbinDeng/packer_ng_flutter
 
 environment:
   sdk: ">=2.7.0 <3.0.0"
